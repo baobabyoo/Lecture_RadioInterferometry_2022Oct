@@ -1,9 +1,9 @@
 # Lecture: Radio Interferometry
-###### (2022O October 05 - November 30)
-###### Lecturer: [Hauyu Baobab Liu](https://baobabyoo.github.io/)
-###### Location: NTNU
-###### Language: English
-###### Off-class communication interface: this github page
+* Time: (2022O October 05 - November 30) 2:20-5:20 pm, Wednesday
+* Lecturer: [Hauyu Baobab Liu](https://baobabyoo.github.io/)
+* Location: NTNU
+* Language: English
+* Off-class communication interface: this github page
 
 <img src="./images/Lecture_RadioInterferometry_2022Oct_QR.png" alt="QRcode" width="200px"/>
 
