@@ -15,7 +15,7 @@
 2. Knowing the principles of radio interferometry.
 3. Knowing how to use the [Submillimeter Array](http://sma1.sma.hawaii.edu/)
   * Proposing (for some instruction see [my webpage](https://baobabyoo.github.io/pages/students_topics/UsingTelescope_SMA.html))
-  * Calibrating data using either the [CASA software package](https://casa.nrao.edu/) or [MIR IDL software package](https://lweb.cfa.harvard.edu/~cqi/mircook.html) (requiring an access to [IDL](https://en.wikipedia.org/wiki/IDL_(programming_language) license)
+  * Calibrating data using either the [CASA software package](https://casa.nrao.edu/) or [MIR IDL software package](https://lweb.cfa.harvard.edu/~cqi/mircook.html) (requiring an access to [IDL](https://www.l3harrisgeospatial.com/docs/idl_programming.html))
 
 ## Suggested Textbooks:
 1. [Synthesis Imaging in Radio Astronomy II](https://www.aspbooks.org/a/volumes/table_of_contents/?book_id=292) (primary)
