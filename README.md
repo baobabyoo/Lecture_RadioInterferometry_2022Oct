@@ -1,7 +1,7 @@
 # Lecture: Radio Interferometry
 * Time: (2022O October 05 - November 30) 2:20-5:20 pm, Wednesday
 * Lecturer: [Hauyu Baobab Liu](https://baobabyoo.github.io/)
-* Location: NTNU
+* Location: NTNU, College of Science, Building B413
 * Language: English
 * Off-class communication interface: this github page
 
@@ -16,6 +16,10 @@
 3. Knowing how to use the [Submillimeter Array](http://sma1.sma.hawaii.edu/)
   * Proposing (for some instruction see [my webpage](https://baobabyoo.github.io/pages/students_topics/UsingTelescope_SMA.html))
   * Calibrating data using either the [CASA software package](https://casa.nrao.edu/) or [MIR IDL software package](https://lweb.cfa.harvard.edu/~cqi/mircook.html) (requiring an access to [IDL](https://www.l3harrisgeospatial.com/docs/idl_programming.html))
+
+## Expectation:
+1. This is a 3-credits' course. The expected weekly workload for you is 2 hours on average if you have no experience and knowledge in this area.
+2. There is no final exams. The workload for you to produce your final report may be 10~15 hours if you have no experience and knowledge in this area.
 
 ## Suggested Textbooks:
 1. [Synthesis Imaging in Radio Astronomy II](https://www.aspbooks.org/a/volumes/table_of_contents/?book_id=292) (primary)
