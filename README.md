@@ -56,6 +56,8 @@ There is no roll call. If you are confident that you can prepare and submit a pr
 ## Individual Lectures
 
 #### Lecture 1 (2022 October 05)
+[Lecture notes: Principle of radiation and basic observational parameters](https://github.com/baobabyoo/Lecture_RadioInterferometry_2022Oct/blob/main/lecture_notes/RadioAstronomy_2022Oct_lecture1_NTNU.pdf)
+
 1. Connect to the [ALMA data archive](https://almascience.nao.ac.jp/aq/).
 2. Find the `search` box in the upper left. Move the mouse cursor there and then find the source name box. Enter `HL_Tau, 0.1` to search for any observations that is targeting on the direction that is within **0.1 arcminutes** from the protoplanetary disk HL Tau (see [this webpage](https://www.eso.org/public/images/eso1436a/)) for a high quality press release.
 3. Check the return in the bottom. There should be 28 observations, which were carried out at various frequency bands. You can find the continuum sensitivity in terms of Jy/beam and angular resolution in unit of arcsecond (1 arcminute is 1/60 degree; 1 arcsecond is 1/60 arcminute).
