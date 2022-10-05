@@ -7,6 +7,11 @@
 
 <img src="./images/Lecture_RadioInterferometry_2022Oct_QR.png" alt="QRcode" width="200px"/>
 
+### SMA Project Group
+- **Star-formation** H.-T. Lee, N.-J. Lin, T.-S. Chen, X.-R. Tsai
+- **AGN** P.-C. Hsu, C.-F. Chen, J.-Y. Gu
+- **High-z and starburst** C.-L. Liao, M.-N. Chen, T.-H. Kuo
+
 ## Syllabus:
 1. (October 05) Principle of radiation; basic observational parameters; how to check [ALMA data archive](https://almascience.nao.ac.jp/aq/) and produce publication-level figures.
 2. (October 12) Single-dish telescope; SMA proposal preparation
