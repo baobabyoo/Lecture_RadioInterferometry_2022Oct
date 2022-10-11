@@ -14,14 +14,15 @@
 
 ## Syllabus:
 1. (October 05) Principle of radiation; basic observational parameters; how to check [ALMA data archive](https://almascience.nao.ac.jp/aq/) and produce publication-level figures.
-2. (October 12) Single-dish telescope; SMA proposal preparation
-3. (October 19) Interferometer; SMA proposal discussion
-4. (October 26) Principle of data calibration; SMA observing script preparation
-5. (November 02) Participate observations as a post mid-term party (date and time TBD; **likely on Friday, from 7 pm to 10 pm; food will be served**)
-6. (November 09) Error recognition; Hands-on data calibration
-7. (November 16) Noise; Hands-on data calibration
-8. (November 23) Principle of imaging; hands-on imaging session
-9. (November 30) Final (group) presentation
+2. (October 12) Single-dish telescope (1.5 hr); SMA proposal preparation (1.5 hr)
+3. (October 19) Interferometer (2 hr); SMA proposal discussion (1 hr)
+4. (October 26) mid-term exam
+5. (November 02) Principle of data calibration; SMA observing script preparation
+5. (November 09) Participate observations as a post mid-term party (date and time TBD; **likely on Friday, from 7 pm to 10 pm; food will be served**)
+6. (November 16) Error recognition; Hands-on data calibration
+7. (November 23) Principle of imaging; Hands-on data calibration, imaging
+8. (November 30) Principle of imaging; hands-on imaging session
+9. (November 30) Noise; Final (group) presentation
 
 ## Goal:
 1. Being able to download archival ALMA data, examine images, and produce figures.
