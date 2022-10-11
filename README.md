@@ -64,6 +64,7 @@ There is no roll call. If you are confident that you can prepare and submit a pr
 #### Lecture 1 (2022 October 05)
 [Lecture notes: Principle of radiation and basic observational parameters](https://github.com/baobabyoo/Lecture_RadioInterferometry_2022Oct/blob/main/lecture_notes/RadioAstronomy_2022Oct_lecture1_NTNU.pdf)
 
+##### Checking ALMA data archive
 1. Connect to the [ALMA data archive](https://almascience.nao.ac.jp/aq/).
 2. Find the `search` box in the upper left. Move the mouse cursor there and then find the source name box. Enter `HL_Tau, 0.1` to search for any observations that is targeting on the direction that is within **0.1 arcminutes** from the protoplanetary disk HL Tau (see [this webpage](https://www.eso.org/public/images/eso1436a/)) for a high quality press release.
 3. Check the return in the bottom. There should be 28 observations, which were carried out at various frequency bands. You can find the continuum sensitivity in terms of Jy/beam and angular resolution in unit of arcsecond (1 arcminute is 1/60 degree; 1 arcsecond is 1/60 arcminute).
@@ -71,3 +72,14 @@ There is no roll call. If you are confident that you can prepare and submit a pr
 5. Check the box on the left of this item, and then click the green `Explore and Download` button. Many things will pop up. Scroll down to find the FITS file of the continuum image `member.uid___A001_X1284_X1742.HL_Tau_sci.spw25_27_29_31.cont.I.manual.pbcor.fits` and click on it to download. Inspect this FITS image using either **ds9** or **CASA viewer** (for an introduction about FITS image and these softwares, see [this page](https://baobabyoo.github.io/pages/students_topics/software_tips_FITS.html)).
 6. Try to prepare a publication-level figure using the Python package APLpy (an example is provided [here](https://baobabyoo.github.io/pages/students_topics/software_tips_FITS.html#4-working-with-fits-using-software-languages)). If you are not yet familiar with Python, see an introduction [here](https://baobabyoo.github.io/pages/students_topics/software_tips_python.html). You can also google it.
 7. We are going to observe with the SMA in 1 month. You can check the figures and tables in the following papers [Long et al. (2018)](https://ui.adsabs.harvard.edu/abs/2018ApJ...869...17L/abstract), [Andrews et al. (2018)](https://ui.adsabs.harvard.edu/abs/2018ApJ...869L..41A/abstract), [Tobin et al. (2020)](https://ui.adsabs.harvard.edu/abs/2020ApJ...890..130T/abstract), and  [Yang et al. (2021)](https://ui.adsabs.harvard.edu/abs/2021ApJ...910...20Y/abstract) to find a few bright target sources in the Perseus, Taurus, and Orion molecular clouds which can be observed in nighttime in winter term. You can then try to download the images of your selected target source(s) and then check their angular size, spectral index, etc. If you are experienced with archival radio interferometric data already, you are also welcome to check other type of sources.
+
+
+#### Lecture 2 (2022 October 12)
+[Lecture notes: Understanding the response of single-dish telescopes, angular resolution](https://github.com/baobabyoo/Lecture_RadioInterferometry_2022Oct/blob/main/lecture_notes/RadioAstronomy_2022Oct_lecture2_NTNU.pdf)
+
+##### SMA proposal preparation
+
+1. A general guide for how to prepare an observational proposal can be found in [this webpage](https://baobabyoo.github.io/pages/students_topics/proposal_obs.html).
+2. Information that is specific to the SMA can be found in [this webpage](https://baobabyoo.github.io/pages/students_topics/UsingTelescope_SMA.html).
+3. A template of proposal can be found as an Overleaf project [here](https://www.overleaf.com/read/wndstmfyphpz)
+
