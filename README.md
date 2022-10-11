@@ -18,10 +18,9 @@
 3. (October 19) Interferometer (2 hr); SMA proposal discussion (1 hr)
 4. (October 26) mid-term exam
 5. (November 02) Principle of data calibration; SMA observing script preparation
-5. (November 09) Participate observations as a post mid-term party (date and time TBD; **likely on Friday, from 7 pm to 10 pm; food will be served**)
-6. (November 16) Error recognition; Hands-on data calibration
-7. (November 23) Principle of imaging; Hands-on data calibration, imaging
-8. (November 30) Principle of imaging; hands-on imaging session
+6. (November 09) Participate observations as a post mid-term party (date and time TBD; **likely on Friday, from 7 pm to 10 pm; food will be served**)
+7. (November 16) Error recognition; Hands-on data calibration
+8. (November 23) Principle of imaging; Hands-on data calibration, imaging
 9. (November 30) Noise; Final (group) presentation
 
 ## Goal:
@@ -81,5 +80,5 @@ There is no roll call. If you are confident that you can prepare and submit a pr
 
 1. A general guide for how to prepare an observational proposal can be found in [this webpage](https://baobabyoo.github.io/pages/students_topics/proposal_obs.html).
 2. Information that is specific to the SMA can be found in [this webpage](https://baobabyoo.github.io/pages/students_topics/UsingTelescope_SMA.html).
-3. A template of proposal can be found as an Overleaf project [here](https://www.overleaf.com/read/wndstmfyphpz)
+3. A template of proposal can be found as an Overleaf project [here](https://www.overleaf.com/read/wndstmfyphpz). It is a part of a real SMA proposal of my student Greta Siu, with significant contribution from my former student Yuxin Lin.
 
