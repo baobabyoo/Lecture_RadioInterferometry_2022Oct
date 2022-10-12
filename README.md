@@ -78,7 +78,8 @@ There is no roll call. If you are confident that you can prepare and submit a pr
 
 ##### SMA proposal preparation
 
-1. A general guide for how to prepare an observational proposal can be found in [this webpage](https://baobabyoo.github.io/pages/students_topics/proposal_obs.html).
-2. Information that is specific to the SMA can be found in [this webpage](https://baobabyoo.github.io/pages/students_topics/UsingTelescope_SMA.html).
-3. A template of proposal can be found as an Overleaf project [here](https://www.overleaf.com/read/wndstmfyphpz). It is a part of a real SMA proposal of my student Greta Siu, with significant contribution from my former student Yuxin Lin.
+1. A general comment about any proposal is given in [this webpage](https://baobabyoo.github.io/pages/students_topics/proposal.html).
+2. A general guide for how to prepare an observational proposal can be found in [this webpage](https://baobabyoo.github.io/pages/students_topics/proposal_obs.html).
+3. Information that is specific to the SMA can be found in [this webpage](https://baobabyoo.github.io/pages/students_topics/UsingTelescope_SMA.html).
+4. A template of proposal can be found as an Overleaf project [here](https://www.overleaf.com/read/wndstmfyphpz). It is a part of a real SMA proposal of my student Greta Siu, with significant contribution from my former student Yuxin Lin.
 
