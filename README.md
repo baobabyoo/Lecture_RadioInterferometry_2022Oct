@@ -83,3 +83,7 @@ There is no roll call. If you are confident that you can prepare and submit a pr
 3. Information that is specific to the SMA can be found in [this webpage](https://baobabyoo.github.io/pages/students_topics/UsingTelescope_SMA.html).
 4. A template of proposal can be found as an Overleaf project [here](https://www.overleaf.com/read/wndstmfyphpz). It is a part of a real SMA proposal of my student Greta Siu, with significant contribution from my former student Yuxin Lin.
 
+
+#### Lecture 3 (2022 October 19)
+[Lecture notes: Understanding the response of single-dish telescopes, angular resolution](https://github.com/baobabyoo/Lecture_RadioInterferometry_2022Oct/blob/main/lecture_notes/RadioAstronomy_2022Oct_lecture3_NTNU.pdf)
+
