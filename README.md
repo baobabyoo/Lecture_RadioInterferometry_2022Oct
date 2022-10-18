@@ -87,3 +87,4 @@ There is no roll call. If you are confident that you can prepare and submit a pr
 #### Lecture 3 (2022 October 19)
 [Lecture notes: Principle of radio interferometry](https://github.com/baobabyoo/Lecture_RadioInterferometry_2022Oct/blob/main/lecture_notes/RadioAstronomy_2022Oct_lecture3_NTNU.pdf)
 
+Power ratio is often expressed in unit of [decibel (dB)](https://en.wikipedia.org/wiki/Decibel). Check the definition. It will appear in your mid-term exam.
