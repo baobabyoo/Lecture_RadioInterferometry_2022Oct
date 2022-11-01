@@ -18,7 +18,7 @@
 3. (October 19) Interferometer (2 hr); SMA proposal discussion (1 hr)
 4. (October 26) mid-term exam
 5. (November 02) Principle of data calibration; SMA observing script preparation
-6. (November 09) Participate observations as a post mid-term party (date and time TBD; **likely on Friday, from 7 pm to 10 pm; food will be served**)
+6. (November 09) Participate observations as a post mid-term party (**Nov. 09, priming starts as early as Taipei time 10 am and finish at 11:45 am. Tentative plan: observing passband and flux calibrators until 7 pm HST, then observe AGN-group for 2 hrs -> Starburst-group for 1 hr -> demo-group for 1.5 hrs -> SF-group for 0.5 hr**)
 7. (November 16) Error recognition; Hands-on data calibration
 8. (November 23) Principle of imaging; Hands-on data calibration, imaging
 9. (November 30) Noise; Final (group) presentation
@@ -93,3 +93,5 @@ Power ratio is often expressed in unit of [decibel (dB)](https://en.wikipedia.or
 #### Lecture 4 (2022 November 02)
 [Lecture notes: Principle of data calibration](https://github.com/baobabyoo/Lecture_RadioInterferometry_2022Oct/blob/main/lecture_notes/RadioAstronomy_2022Oct_lecture4_NTNU.pdf)
 
+#### Lecture 5 (2022 November 05)
+Participating in SMA observations.
