@@ -93,6 +93,8 @@ Power ratio is often expressed in unit of [decibel (dB)](https://en.wikipedia.or
 #### Lecture 4 (2022 November 02)
 [Lecture notes: Principle of data calibration](https://github.com/baobabyoo/Lecture_RadioInterferometry_2022Oct/blob/main/lecture_notes/RadioAstronomy_2022Oct_lecture4_NTNU.pdf)
 
+The step-by-step guide for preparing observing script can be found [here](https://baobabyoo.github.io/pages/students_topics/UsingTelescope_SMA.html#2-organizing-observing-scripts).
+
 #### Lecture 5 (2022 November 05)
 Participating in SMA observations.
 
