@@ -95,3 +95,17 @@ Power ratio is often expressed in unit of [decibel (dB)](https://en.wikipedia.or
 
 #### Lecture 5 (2022 November 05)
 Participating in SMA observations.
+
+Tentative plan
+- Doppler track NGC1386
+- Tuning:
+1. RxA: 230.538 GHz at USB, S2
+2. RxB: 230.538 GHz at LSB, s3
+- Array configuration: extended
+- Weather: less than 4 mm PWV
+- Plan: 
+1. After priming, observing passband and flux calibrators until 7 pm HST
+2. Observe AGN-group for 2 hrs
+3. Observe Starburst-group for 1 hr
+4. Observe demo-group for 1.5 hrs
+5. Observe NGC2024 group for 0.5 hrs
