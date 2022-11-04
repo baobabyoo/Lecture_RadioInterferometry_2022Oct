@@ -1,0 +1,91 @@
+#!/usr/bin/perl -w
+{ BEGIN {$^W =0}
+#
+################## Script Header Info #####################
+#
+# Experiment Code: 2022B-A007
+# Experiment Title: 2022-Nov Radio Interferometry Lecture
+# PI: Hau-Yu Baobab Liu
+# Contact Person: Hau-Yu Baobab Liu  
+# Email  : baobabyoo@gmail.com  
+# Office : +886 2 932082181  
+# Home   : +886 2 932082181   
+# Array  : extended   
+#
+#
+############## SPECIAL INSTRUCTIONS ################
+#
+# Please double check the availability of the absolute flux calibrator.
+#
+################## Priming ################################
+#
+# observe -s NGC7479 -r 23:04:56.64 -d +12:19:22.35 -e 2000 -v 0
+# dopplerTrack -S NGC7479  -r 230.538 -u -s2 -f 0.0 -R B -r 230.538 -l -s3 -f 0.0
+#
+################## Pointing ###############################
+#
+# Pointing: after sunset
+# Syntax Example: point -i 60 -r 3 -L -l -t -Q
+#
+################## Source, Calibrator and Limits ##########
+#
+$inttime="15"; 
+$targ0="NGC7479 -r 23:04:56.64 -d +12:19:22.35 -e 2000 -v 0"; $ntarg0="40"; 
+$targ1="NGC253 -r 00:47:33.2 -d -25:17:17.1 -e 2000 -v 0"; $ntarg1="40";
+$targ2="zztauirs -r 04:30:51.7198 -d +24:41:47.604 -e 2000 -v 0"; $ntarg2="10"; 
+$targ3="J0412 -r 04:12:40.716 -d +24:38:15.327 -e 2000 -v 0"; $ntarg3="30"; 
+$targ4="ngc2024fir5 -r 05:41:44.3 -d -01:55:38 -e 2000 -v 0"; $ntarg4="40"; 
+$cal0="2232+117"; $ncal0="8";
+$cal1="2348-165"; $ncal1="20";
+$cal2="3c111"; $ncal2="8";
+$cal3="0501-019"; $ncal3="8";
+$flux0="Titan"; $nflux0="40";
+$bpass0="1924-292"; $nbpass0="120";
+$MINEL_TARG = 17; $MAXEL_TARG = 83;
+$MINEL_GAIN = 17; $MAXEL_GAIN = 83;
+$MINEL_FLUX = 17; $MAXEL_FLUX = 81;
+$MINEL_BPASS= 17; $MAXEL_BPASS= 87;
+$MINEL_CHECK= 19; 
+#
+################## Script Initialization ##################
+#
+do 'sma.pl';
+do 'sma_add.pl';
+checkANT();
+command("radio");
+command("integrate -t $inttime");
+$myPID=$$;
+command("project -r -p 'Hau-Yu Baobab Liu' -d '2022B-A007'");
+print "----- initialization done, starting script -----\n";
+#
+################## Science Script #########################
+#
+print "----- initial flux and bandpass calibration -----\n";
+if(!$restart){
+  &DoPass(bpass0,nbpass0);
+  &DoFlux(flux0,nflux0);
+}
+
+print "----- AGN Group: NGC7479 Loop -----\n";
+$LST_start=21.2; $LST_end=23.5;
+  &ObsLoop(cal0,targ0);
+
+print "----- Starburst Group: NGC253 Loop -----\n";
+$LST_start=23.3; $LST_end=0.6;
+  &ObsLoop(cal1,targ1);
+
+print "----- Demo Group: Taurus Loop -----\n";
+$LST_start=0.5; $LST_end=2.1;
+  &ObsLoop(cal2,targ3,targ4);
+
+print "----- Star-formation Group: NGC2024 FIR5 Loop -----\n";
+$LST_start=2.0; $LST_end=2.7;
+  &ObsLoop(cal3,targ4);
+
+print "----- final flux and bandpass calibration -----\n";
+  &DoFlux(flux0,nflux0);
+  &DoPass(bpass0,nbpass0);
+
+print "----- Congratulations!  This is the end of the script.  -----\n";}
+#
+################## File End ###############################
