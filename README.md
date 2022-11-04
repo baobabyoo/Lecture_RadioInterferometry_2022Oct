@@ -97,6 +97,7 @@ The step-by-step guide for preparing observing script can be found [here](https:
 
 #### Lecture 5 (2022 November 05)
 Participating in SMA observations.
+Our observing script is [here](https://github.com/baobabyoo/Lecture_RadioInterferometry_2022Oct/blob/main/Observing_script.txt).
 
 Tentative plan
 - Doppler track NGC1386
