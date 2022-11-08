@@ -7,9 +7,9 @@
 # Experiment Title: 2022-Nov Radio Interferometry Lecture
 # PI: Hau-Yu Baobab Liu
 # Contact Person: Hau-Yu Baobab Liu  
-# Email  : baobabyoo@gmail.com  
-# Office : +886 2 932082181  
-# Home   : +886 2 932082181   
+# Email  :   
+# Office :   
+# Home   :   
 # Array  : extended   
 #
 #
@@ -75,11 +75,11 @@ $LST_start=23.3; $LST_end=0.6;
   &ObsLoop(cal1,targ1);
 
 print "----- Demo Group: Taurus Loop -----\n";
-$LST_start=0.5; $LST_end=2.1;
-  &ObsLoop(cal2,targ3,targ4);
+$LST_start=0.5; $LST_end=3.1;
+  &ObsLoop(cal2,targ2,targ3);
 
 print "----- Star-formation Group: NGC2024 FIR5 Loop -----\n";
-$LST_start=2.0; $LST_end=2.7;
+$LST_start=3.0; $LST_end=3.7;
   &ObsLoop(cal3,targ4);
 
 print "----- final flux and bandpass calibration -----\n";
