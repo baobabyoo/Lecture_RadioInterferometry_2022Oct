@@ -99,16 +99,25 @@ The step-by-step guide for preparing observing script can be found [here](https:
 Participating in SMA observations.
 Our observing script is [here](https://github.com/baobabyoo/Lecture_RadioInterferometry_2022Oct/blob/main/Observing_script.txt).
 
-Tentative plan
-- Doppler track NGC1386
+
+#### Lecture 6 (2022 November 09)
+(Instructed by Sheng-Feng Yen)
+
+- Doppler track NGC7479
 - Tuning:
     1. RxA: 230.538 GHz at USB, S2
     2. RxB: 230.538 GHz at LSB, s3
-- Array configuration: extended
-- Weather: less than 4 mm PWV
-- Plan: 
+- Array configuration: Extended
+- Weather constraint: less than 4 mm PWV
+- Plan:
     1. After priming, observing passband and flux calibrators until 7 pm HST
-    2. Observe AGN-group for 2 hrs
-    3. Observe Starburst-group for 1 hr
-    4. Observe demo-group for 1.5 hrs
-    5. Observe NGC2024 group for 0.5 hrs
+    2. Observe AGN-group (NGC7479) for 2 hrs
+    3. Observe Starburst-group (NGC253) for 1 hr
+    4. Observe demo-group (J0412, ZZ Tau IRS) for 2.5 hrs
+    5. Observe NGC2024-group (NGC2024 FIR5) for 0.5 hrs
+
+#### Lecture 6 (2022 November 16)
+- Launch the VPN client and `scp -Y` to one of the following workstations `almat5, almat6, almat7, almat8`
+- The directory of demo science data can be copied from `/almalustre/home/hyliu/for_lecture/reduction/demo`
+- The directory of the data of individual group can be found in `/almalustre/home/hyliu/for_lecture/raw`. Copy the data to your own working directory for further processing.
+- The full MIR IDL procedure to calibrate the demo science data (ZZ Tau IRS) can be found [here](https://baobabyoo.github.io/pages/students_topics/UsingTelescope_SMA.html#433-full-procedure)
