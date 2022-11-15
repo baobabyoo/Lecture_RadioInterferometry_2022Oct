@@ -115,6 +115,8 @@ Our observing script is [here](https://github.com/baobabyoo/Lecture_RadioInterfe
     3. Observe Starburst-group (NGC253) for 1 hr
     4. Observe demo-group (J0412, ZZ Tau IRS) for 2.5 hrs
     5. Observe NGC2024-group (NGC2024 FIR5) for 0.5 hrs
+- The summary of the SMA observations can be found [here](https://github.com/baobabyoo/Lecture_RadioInterferometry_2022Oct/blob/main/22B_A007_summary.png)
+- The observing log can be found [here](https://github.com/baobabyoo/Lecture_RadioInterferometry_2022Oct/blob/main/22B_A007_log.png)
 
 #### Lecture 6 (2022 November 16)
 - Launch the VPN client and `scp -Y` to one of the following workstations `almat5, almat6, almat7, almat8`
@@ -123,4 +125,4 @@ Our observing script is [here](https://github.com/baobabyoo/Lecture_RadioInterfe
 - The full MIR IDL procedure to calibrate the demo science data (ZZ Tau IRS) can be found [here](https://baobabyoo.github.io/pages/students_topics/UsingTelescope_SMA.html#433-full-procedure)
 - To enable using the MIR IDL software package, type `source /asiaa/home/hyliu/software/MIR/sma-mir/setup.bsh` in the Linux command line.
 - To enable using the Miriad software package, type 'source /asiaa/home/hyliu/software/Miriad/carma/miriad/miriad_start.sh' in the Linux command line.
-- To launch IDL, type `IDL` in the Linux command line. Then we can enter the IDL commands in the IDL command-line. 
+- To launch IDL, type `IDL` in the Linux command line. Then we can enter the IDL commands in the IDL command-line.
