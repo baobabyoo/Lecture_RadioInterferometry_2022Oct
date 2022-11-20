@@ -129,3 +129,7 @@ Our observing script is [here](https://github.com/baobabyoo/Lecture_RadioInterfe
 - To enable using the MIR IDL software package, type `source /asiaa/home/hyliu/software/MIR/sma-mir/setup.bsh` in the Linux command line.
 - To enable using the Miriad software package, type `source /asiaa/home/hyliu/software/Miriad/carma/miriad/miriad_start.sh` in the Linux command line.
 - To launch IDL, type `IDL` in the Linux command line. Then we can enter the IDL commands in the IDL command-line.
+
+#### Lecture 7 (2022 November 23)
+
+[Lecture notes: Formation of image](https://github.com/baobabyoo/Lecture_RadioInterferometry_2022Oct/blob/main/lecture_notes/RadioAstronomy_2022Oct_lecture6_NTNU.pdf)
